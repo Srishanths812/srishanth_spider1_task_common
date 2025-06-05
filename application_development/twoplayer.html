@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hammer Strength Game</title>
+        <link rel="stylesheet" href="./learnt.css">
+    </head>
+    <body>
+        <h1 style="color: white">Hammer Strength Game</h1>
+        <h1 id="whichplayer" style="color: red">Player 1</h1>
+        <h2 id="player1score" style="color: red; text-align: right;">Player 1 Score : 0</h2>
+        <h2 id="player2score" style="color: blue; text-align: right">Player 2 Score : 0</h2>
+        <h2>
+        <span id="tries" style="color: beige">Tries Left : 5</span>
+        <span id="score" style="color : beige">&nbsp;&nbsp;&nbsp;&nbsp;Score : 0</span>
+        </h2>
+        <canvas id="board"></canvas>
+        
+        <div id="try_again">
+            <button id="stop">Strike</button>
+        </div>
+        <div id="reset">
+            <button id="reset_button">Reset Score</button>
+        </div>
+        <div id="goto_mainpage">
+            <button id="back_button">Go to Main Page</button>
+        </div>
+        <script src="./twoplayer.js"></script>
+    </body>
+</html>

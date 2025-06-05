@@ -1,0 +1,88 @@
+body{
+    height: 100%;
+    margin: 10;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align :center;
+    background: url("123.jpg");
+    backdrop-filter: blur(15px);
+    /*background-size: 100% 1000%; */
+    background-size: cover;
+}
+
+#board {
+    width: 540px;
+    height: 540px;
+    background: url("hammerbg.png");
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+#try_again {
+    display: grid;
+    margin: 35px auto;
+    width: 300px;
+    height: 10%;
+    border:3px;
+    border-radius: 500px;
+    font-size: 200px;
+}
+#try_again button{
+    padding: 10px 20px;
+    font-size: 40px;
+    border-radius: 25px;
+}
+
+#reset {
+    position: absolute;
+    left:10px;
+    top:10px;
+    display: grid;
+    margin: 17px auto;
+    width: 100px;
+    height: 10%;
+    border:1.5px;
+    border-radius: 250px;
+    font-size: 100px;
+}
+#reset button{
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 13px;
+}
+
+#player{
+    position: relative;
+    display: grid;
+    margin: 17.5px auto;
+    width: 150px;
+    height: 10%;
+    border:1.5px;
+    border-radius: 250px;
+    font-size: 100px;
+}
+#player button{
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 12.5px;
+}
+
+#goto_mainpage{
+    position: absolute;
+    right:10px;
+    top:10px;
+    display: grid;
+    margin: 17px auto;
+    width: 100px;
+    height: 10%;
+    border:1.5px;
+    border-radius: 250px;
+    font-size: 100px;
+}
+#goto_mainpage button{
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 13px;
+}
